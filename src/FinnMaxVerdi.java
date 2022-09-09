@@ -21,6 +21,7 @@ public class FinnMaxVerdi {
         for (int k = 0; k< liste2.length;k++){
             System.out.print(liste2[k]);
         }
+        System.out.println("Test-1");
     }
 }
 
