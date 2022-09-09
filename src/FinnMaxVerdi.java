@@ -22,6 +22,8 @@ public class FinnMaxVerdi {
             System.out.print(liste2[k]);
         }
         System.out.println("Test-1");
+
+        System.out.println("Test-2 Fra andre data maskin");
     }
 }
 
