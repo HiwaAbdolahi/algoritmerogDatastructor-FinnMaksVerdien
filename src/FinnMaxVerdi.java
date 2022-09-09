@@ -7,7 +7,7 @@ public class FinnMaxVerdi {
                 maksVerdi = liste[i];
             }
         }
-        System.out.println("formulig khom  : "+ maksVerdi);
+        System.out.println("min algoritme : "+ maksVerdi+"\n");
         int[] liste2 = {16,3,8,9,2,7,6};
         int maksVerdi1 = liste[0];
         for (int j = 1; j < 7; j++){
@@ -16,7 +16,11 @@ public class FinnMaxVerdi {
                 maksVerdi1 = verdi;
             }
         }
-        System.out.println("Lengre kode. Resultat : "+maksVerdi1);
+        System.out.println("Lengre kode. Resultat : "+maksVerdi1+"\n");
+        System.out.print("\"tallene i liste 2 :\"");
+        for (int k = 0; k< liste2.length;k++){
+            System.out.print(liste2[k]);
+        }
     }
 }
 
